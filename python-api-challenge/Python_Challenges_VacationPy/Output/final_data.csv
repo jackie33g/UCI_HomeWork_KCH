@@ -1,0 +1,26 @@
+,City,Country,Lat,Lng,Hotel Name,Max Temp,Wind Speed,Cloudiness,Humidity,Date
+0,villarrica,PY,-25.75,-56.43,Villarrica Palace Hotel,74.73,3.2,0,65,1603248039
+1,san miguel,ML,13.3,-4.9,Hotel Santoro,79.86,7.45,0,51,1603248039
+2,mecca,SA,21.43,39.83,Pullman Zamzam Makkah,75.45,6.22,0,18,1603247972
+3,bandarbeyla,SO,9.49,50.81,Super secret pirate cove,78.67,8.9,0,68,1603247874
+4,yichang,CN,30.71,111.28,Crowne Plaza Yichang,72.0,4.72,0,39,1603248062
+5,avenal,US,36.0,-120.13,Lodge House Inn The,75.0,1.01,0,38,1603248130
+6,san patricio,ML,13.3,-4.9,Hotel Santoro,79.86,7.45,0,51,1603248039
+8,san carlos de bariloche,ML,13.3,-4.9,Hotel Santoro,79.86,7.45,0,51,1603248152
+9,sao joao da barra,IN,20.51,76.21,Hotel Sai Residency,77.59,3.13,0,75,1603248081
+10,san quintin,ML,13.3,-4.9,Hotel Santoro,79.86,7.45,0,51,1603248162
+11,aswan,EG,24.09,32.91,Sofitel Legend Old Cataract Aswan,77.81,8.19,0,24,1603247922
+12,sao filipe,IN,20.51,76.21,Hotel Sai Residency,77.59,3.13,0,75,1603248276
+13,dubai,AE,25.26,55.3,"Sheraton Grand Hotel, Dubai",73.4,2.24,0,64,1603248225
+14,alexandria,EG,31.22,29.96,"Four Seasons Hotel Alexandria at San Stefano, Egypt",73.4,4.7,0,83,1603248164
+15,san juan de colon,ML,13.3,-4.9,Hotel Santoro,79.86,7.45,0,51,1603248152
+16,esna,EG,25.29,32.55,Orient Star Dahabyia Isna 05 Nights Each Sunday,71.6,3.31,0,33,1603248289
+17,sur,OM,22.57,59.53,Sur Plaza Hotel,77.11,4.36,0,57,1603248299
+18,sesheke,ZM,-17.48,24.3,Protea Hotel by Marriott Zambezi River Lodge,70.14,5.21,0,22,1603248308
+19,tahta,EG,26.77,31.5,El Salam Hotel,71.6,2.24,0,46,1603248321
+20,itaituba,BR,-4.28,-55.98,Acácia Hotel - Restaurante e Eventos,79.29,2.15,0,66,1603248325
+22,mandurah,AU,-32.55,115.7,The Sebel Mandurah,73.99,9.17,0,52,1603248351
+24,san cristobal,ML,13.3,-4.9,Hotel Santoro,79.86,7.45,0,51,1603248356
+25,ibra,OM,22.69,58.53,تفضل بيت ضيافة Geust house tafadal,71.13,2.55,0,18,1603248366
+26,san policarpo,ML,13.3,-4.9,Hotel Santoro,79.86,7.45,0,51,1603248373
+27,biu,NG,10.61,12.19,Biu Luxury Motel and Suites,72.1,2.26,0,34,1603248381
