@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0078)file:///Users/huangjyuanjie/UCI_HomeWork_KCH/Web-Design-Challenge/index.html?# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>HTML HW</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="./HTML HW_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--CSS Link-->
+    <link rel="stylesheet" type="text/css" href="./HTML HW_files/style.css">
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="file:///Users/huangjyuanjie/UCI_HomeWork_KCH/Web-Design-Challenge/index.html?#">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="file:///Users/huangjyuanjie/UCI_HomeWork_KCH/Web-Design-Challenge/index.html?#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="file:///Users/huangjyuanjie/UCI_HomeWork_KCH/Web-Design-Challenge/index.html?#">Max Temp</a>
+                  <a class="dropdown-item" href="file:///Users/huangjyuanjie/UCI_HomeWork_KCH/Web-Design-Challenge/index.html?#">Humidity</a>
+                  <a class="dropdown-item" href="file:///Users/huangjyuanjie/UCI_HomeWork_KCH/Web-Design-Challenge/index.html?#">Cloudiness</a>
+                  <a class="dropdown-item" href="file:///Users/huangjyuanjie/UCI_HomeWork_KCH/Web-Design-Challenge/index.html?#">Wind Speed</a>
+                </div>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="file:///Users/huangjyuanjie/UCI_HomeWork_KCH/Web-Design-Challenge/index.html?#">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="file:///Users/huangjyuanjie/UCI_HomeWork_KCH/Web-Design-Challenge/index.html?#">Data</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+      <!-- Content Section -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-md-12">
+        <!-- Left box  -->
+        <div class="box">
+          <h3 class="title">Summary: Latitude vs. X</h3>
+          <hr>
+          <img src="./HTML HW_files/Fig1.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
+          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
+            accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
+            500 cities.</p>
+          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
+            Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
+            source data and visualizations created as part of the analysis, as well as explanations and descriptions of
+            any trends and correlations witnessed.</p>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-12">
+        <!-- Right Box -->
+        <div class="box">
+          <h5 class="title">Visualizations</h5>
+          <hr>
+
+
+          <div class="container">
+            <div class="row" style="padding-bottom: 30px;">
+              <div class="col-6">
+                <a href="file:///Users/huangjyuanjie/UCI_HomeWork_KCH/Web-Design-Challenge/max_temperature.html">
+                  <img class="panel" src="./HTML HW_files/Fig1.png" alt="Max Temperature Image">
+                </a>
+              </div>
+              <div class="col-6">
+                <a href="file:///Users/huangjyuanjie/UCI_HomeWork_KCH/Web-Design-Challenge/humidity.html">
+                  <img class="panel" src="./HTML HW_files/Fig2.png" alt="Humidity Graph">
+                </a>
+              </div>
+            </div>
+
+            <div class="row" style="padding-bottom: 30px;">
+              <div class="col-6">
+                <a href="file:///Users/huangjyuanjie/UCI_HomeWork_KCH/Web-Design-Challenge/cloudiness.html">
+                  <img class="panel" src="./HTML HW_files/Fig3.png" alt="Cloudiness Graph">
+                </a>
+              </div>
+              <div class="col-6">
+                <a href="file:///Users/huangjyuanjie/UCI_HomeWork_KCH/Web-Design-Challenge/wind_speed.html">
+                  <img class="panel" src="./HTML HW_files/Fig4.png" alt="Wind Speed Graph">
+                </a>
+              </div>
+
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+      <footer>
+          <div class="footer">Copyright © Kuan Chieh Huang 2020</div>
+      </footer>
+      <!-- Bootstrap JS -->
+      <script src="./HTML HW_files/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="./HTML HW_files/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="./HTML HW_files/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body></html>
